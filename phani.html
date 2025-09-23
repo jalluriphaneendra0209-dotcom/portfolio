@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="phani.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo glitter-text">PHANEENDRA</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+   <h2>HELLO<span class="glitter-text">JALLURI SRI VENKATA PHANEENDRA</span></h2>
+      <p>A passionate Web Developer</p>
+      <button onclick="scrollToSection('about')">About Me</button>
+          <a href="JSV Phani resume.pdf" download class="cv-btn">📄 View CV</a>
+        <div class="hero-text">
+  </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about fade-in">
+    <h2 class="glitter-text">About Me</h2>
+    <div class="about-container">
+      <img src="phani.jpg" alt="Your Photo" class="profile-pic">
+      <div class="about-text">
+        <h3>Hi, I'm Your JALLURI SRI VENKATA PHANEENDRA👋</h3>
+        <p>
+          I’m a professional web developer with experience in creating modern, 
+          responsive, and user-friendly websites. Skilled in HTML, CSS, JavaScript, 
+          and frameworks like React, I love building creative digital solutions.
+        </p>
+        <p>
+          I specialize in front-end design, UI/UX, and making web apps that are 
+          not only functional but also visually appealing. I’m passionate about 
+          continuous learning and delivering high-quality projects.
+        </p>
+        <button onclick="scrollToSection('projects')">See My Work</button>
+      </div>
+    </div>
+  </section>
+
+<!-- Skills Section -->
+<section id="skills" class="skills fade-in">
+  <h2 class="glitter-text">My Skills</h2>
+  <div class="skill">
+    <p>HTML</p>
+    <div class="skill-bar">
+      <div class="skill-fill" data-percent="85"></div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <p>CSS</p>
+    <div class="skill-bar">
+      <div class="skill-fill" data-percent="80"></div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <p>JavaScript</p>
+    <div class="skill-bar">
+      <div class="skill-fill" data-percent="75"></div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <p>C++</p>
+    <div class="skill-bar">
+      <div class="skill-fill" data-percent="60"></div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <p>Python</p>
+    <div class="skill-bar">
+      <div class="skill-fill" data-percent="65"></div>
+    </div>
+  </div>
+</section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects fade-in">
+    <h2 class="glitter-text">My Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>Responsive personal portfolio using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project-card">
+        <h3>E-commerce Store</h3>
+        <p>Fully functional online shopping website with payment integration.</p>
+      </div>
+      <div class="project-card">
+        <h3>Blog Platform</h3>
+        <p>A simple blogging site with user authentication and CMS features.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact fade-in">
+    <h2 class="glitter-text">Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; DESIGNED BY<br>
+    PHANEENDRA </p>
+  </footer>
+
+  <script src="phani.js"></script>
+</body>
+</html>
